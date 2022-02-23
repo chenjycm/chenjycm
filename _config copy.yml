@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Simon's Dream"
+title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: Simon Christ
-language: zh-CN
-timezone: "Asia/Shanghai"
+author: John Doe
+language: en
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://chenjycm.github.io/
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,6 +100,10 @@ ignore:
 #theme: landscape
 theme: archer
 
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
 # 启用侧边栏
 jsonContent:
   meta: true
@@ -119,11 +123,3 @@ jsonContent:
     excerpt: false
     categories: true
     tags: true
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo:
-    github:
-      url: https://github.com/chenjycm/chenjycm.github.io
-      branch: gh-pages
